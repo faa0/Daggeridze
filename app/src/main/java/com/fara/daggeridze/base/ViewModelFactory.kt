@@ -1,4 +1,4 @@
-package com.fara.daggeridze.ui.test
+package com.fara.daggeridze.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

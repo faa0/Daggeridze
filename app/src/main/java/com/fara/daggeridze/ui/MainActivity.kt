@@ -1,7 +1,6 @@
 package com.fara.daggeridze.ui
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -10,11 +9,10 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.fara.daggeridze.R
+import com.fara.daggeridze.base.ViewModelFactory
 import com.fara.daggeridze.data.repository.TestRepository
 import com.fara.daggeridze.ui.test.TestViewModel
-import com.fara.daggeridze.ui.test.ViewModelFactory
 import dagger.android.AndroidInjection
-import dagger.android.AndroidInjector
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
